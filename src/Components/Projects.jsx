@@ -56,23 +56,35 @@ const Projects = () => {
           {selectedCategory === "All" && (
             <>
               <li className="ativo">
-                <a href="https://adryeldeev.github.io/landingpageairbnb/">
+                <a
+                  target="_blank"
+                  href="https://adryeldeev.github.io/landingpageairbnb/"
+                >
                   <img src="src/img/airbnb.png" alt="" />
                 </a>
               </li>
               <li className="ativo">
-                <a href="https://cadastro-de-cliente.netlify.app/">
+                <a
+                  target="_blank"
+                  href="https://cadastro-de-cliente.netlify.app/"
+                >
                   <img src="src/img/cadastroDeCliente.png" alt="" />
                 </a>
               </li>
 
               <li className="ativo">
-                <a href="https://todolist-netlify-reactjs.netlify.app/">
+                <a
+                  target="_blank"
+                  href="https://todolist-netlify-reactjs.netlify.app/"
+                >
                   <img src="src/img/todoList2.png" alt="" />
                 </a>
               </li>
               <li className="ativo">
-                <a href="https://adryeldeev.github.io/projecthotel/">
+                <a
+                  target="_blank"
+                  href="https://adryeldeev.github.io/projecthotel/"
+                >
                   <img src="src/img/travel.png" alt="" />
                 </a>
               </li>
@@ -81,12 +93,18 @@ const Projects = () => {
           {selectedCategory === "Landing page" && (
             <>
               <li className="ativo">
-                <a href="https://adryeldeev.github.io/landingpageairbnb/">
+                <a
+                  target="_blank"
+                  href="https://adryeldeev.github.io/landingpageairbnb/"
+                >
                   <img src="src/img/airbnb.png" alt="" />
                 </a>
               </li>
               <li className="ativo">
-                <a href="https://adryeldeev.github.io/projecthotel/">
+                <a
+                  target="_blank"
+                  href="https://adryeldeev.github.io/projecthotel/"
+                >
                   <img src="src/img/travel.png" alt="" />
                 </a>
               </li>
@@ -96,7 +114,10 @@ const Projects = () => {
             <>
               {" "}
               <li className="ativo">
-                <a href="https://cadastro-de-cliente.netlify.app/">
+                <a
+                  target="_blank"
+                  href="https://cadastro-de-cliente.netlify.app/"
+                >
                   <img src="src/img/cadastroDeCliente.png" alt="" />
                 </a>
               </li>
@@ -107,7 +128,10 @@ const Projects = () => {
             <>
               {" "}
               <li className="ativo">
-                <a href="https://todolist-netlify-reactjs.netlify.app/">
+                <a
+                  target="_blank"
+                  href="https://todolist-netlify-reactjs.netlify.app/"
+                >
                   <img src="src/img/todoList2.png" alt="" />
                 </a>
               </li>

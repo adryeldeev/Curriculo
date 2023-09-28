@@ -1,10 +1,10 @@
 import React from "react";
 
-import Navbar from "../Componente/Navbar";
+import Navbar from "../Components/Navbar";
 
-import Projects from "../Componente/Projects";
-import Cursos from "../Componente/Cursos";
-import Educacao from "../Componente/Educacao";
+import Projects from "../Components/Projects";
+import Cursos from "../Components/Cursos";
+import Educacao from "../Components/Educacao";
 
 function Layout({ children }) {
   return (

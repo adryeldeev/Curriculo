@@ -1,5 +1,6 @@
 import React from "react";
 import Layout from "./Layout";
+
 import "../styles/mainsectionStyles.css";
 const HomePage = () => {
   return (
@@ -14,8 +15,8 @@ const HomePage = () => {
               <span></span>
               <span></span>
             </div>
-            <img />
-            <i class="fa-solid fa-map"></i>
+            <img src="src/img/foto.jpeg" />
+            {/* <i class="fa-solid fa-map"></i> */}
           </div>
           <div className="sobre_conteudo">
             <div className="sobre_texto">
@@ -33,14 +34,14 @@ const HomePage = () => {
               </h1>
 
               <p>
-                Me chamo Adryel Martins. Comecei na pragramação em 2022,
+                Me chamo Adryel Martins. Iniciei na programação em 2022,
                 cursando Análise e Desenvolvimento de sistemas na faculdade.{" "}
                 <br />
-                Comecei o estudo em lógica de programação para entender um pouco
-                mais e aprimorar minhas habilidades. O meu objetivo é ser
-                Desenvolvedor Web - Front-end. Estudo html, css, Javascript e
-                ReactJS. Continuo buscando novos desafios para cada vez mais se
-                tonar um profissional e capacitado.
+                Fui para lógica de programação entender um pouco mais e
+                aprimorar minhas habilidades. O meu objetivo é ser Desenvolvedor
+                Web - Front-end. Estudo html, css, Javascript e ReactJS. Vou
+                atrás de novos desafios para cada vez mais se tonar um
+                profissional capacitado.
               </p>
             </div>
             <div className="sobre_info">

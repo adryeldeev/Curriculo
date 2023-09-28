@@ -44,6 +44,9 @@
     margin-top: 20px;
     justify-content: center;
 }
+.experience_content p{
+    color:#707070;
+}
 
 .resume_generico .experience_content div{
     background-color: #222;

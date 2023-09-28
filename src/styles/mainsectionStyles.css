@@ -1,14 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
-.voltar{
-    position: absolute;
-background-color: #ff5d56;
-padding: 10px 20px;
-margin-left: 10px;
-}
-.voltar a{
-    text-decoration: none;
-    color: #fff;
-}
+
 main{
 
     background-color: #111;
@@ -33,6 +24,11 @@ main .sobre{
     color:#fff;
 }
 
+.sobre_titulo img{
+    margin-top: 40px;
+    width: 20%;
+
+}
 .sobre_titulo h1{
     font-size: 2.5rem;
     color:#ff5d56;
@@ -67,7 +63,7 @@ justify-content: center;
     cursor: pointer;
     grid-row: 2;
     max-width: 100%;
-    border-radius: 4px;
+    border-radius: 50%;
     filter:blur(0)
 }
 

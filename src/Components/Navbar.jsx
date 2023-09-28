@@ -32,9 +32,6 @@ const Navbar = () => {
           <li>
             <a href="#portfolio">Portfolio</a>
           </li>
-          <li>
-            <a href="#contato">contato</a>
-          </li>
         </ul>
       </nav>
       <i className="fa-solid fa-bars" onClick={toggleMenu}></i>
