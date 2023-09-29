@@ -1,6 +1,6 @@
 import React from "react";
 import Layout from "./Layout";
-
+import foto from "../img/foto.jpeg";
 import "../styles/mainsectionStyles.css";
 const HomePage = () => {
   return (
@@ -15,7 +15,7 @@ const HomePage = () => {
               <span></span>
               <span></span>
             </div>
-            <img src="src/img/foto.jpeg" />
+            <img src={foto} />
             {/* <i class="fa-solid fa-map"></i> */}
           </div>
           <div className="sobre_conteudo">

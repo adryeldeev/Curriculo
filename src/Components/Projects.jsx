@@ -1,5 +1,9 @@
 import React, { useState } from "react";
 import "../styles/projectStyles.css";
+import travel from "../img/travel.png";
+import todolist2 from "../img/todolist2.png";
+import cadastroDeCliente from "../img/cadastroDeCliente.png";
+import airbnb from "../img/airbnb.png";
 const Projects = () => {
   const [selectedCategory, setSelectedCategory] = useState("All"); // Estado para rastrear a categoria selecionada
 
@@ -60,7 +64,7 @@ const Projects = () => {
                   target="_blank"
                   href="https://adryeldeev.github.io/landingpageairbnb/"
                 >
-                  <img src="src/img/airbnb.png" alt="" />
+                  <img src={airbnb} alt="" />
                 </a>
               </li>
               <li className="ativo">
@@ -68,7 +72,7 @@ const Projects = () => {
                   target="_blank"
                   href="https://cadastro-de-cliente.netlify.app/"
                 >
-                  <img src="src/img/cadastroDeCliente.png" alt="" />
+                  <img src={cadastroDeCliente} alt="" />
                 </a>
               </li>
 
@@ -77,7 +81,7 @@ const Projects = () => {
                   target="_blank"
                   href="https://todolist-netlify-reactjs.netlify.app/"
                 >
-                  <img src="src/img/todoList2.png" alt="" />
+                  <img src={todolist2} alt="" />
                 </a>
               </li>
               <li className="ativo">
@@ -85,7 +89,7 @@ const Projects = () => {
                   target="_blank"
                   href="https://adryeldeev.github.io/projecthotel/"
                 >
-                  <img src="src/img/travel.png" alt="" />
+                  <img src={travel} alt="" />
                 </a>
               </li>
             </>
@@ -97,7 +101,7 @@ const Projects = () => {
                   target="_blank"
                   href="https://adryeldeev.github.io/landingpageairbnb/"
                 >
-                  <img src="src/img/airbnb.png" alt="" />
+                  <img src={airbnb} alt="" />
                 </a>
               </li>
               <li className="ativo">
@@ -105,7 +109,7 @@ const Projects = () => {
                   target="_blank"
                   href="https://adryeldeev.github.io/projecthotel/"
                 >
-                  <img src="src/img/travel.png" alt="" />
+                  <img src={travel} alt="" />
                 </a>
               </li>
             </>
@@ -118,7 +122,7 @@ const Projects = () => {
                   target="_blank"
                   href="https://cadastro-de-cliente.netlify.app/"
                 >
-                  <img src="src/img/cadastroDeCliente.png" alt="" />
+                  <img src={cadastroDeCliente} alt="" />
                 </a>
               </li>
             </>
@@ -132,7 +136,7 @@ const Projects = () => {
                   target="_blank"
                   href="https://todolist-netlify-reactjs.netlify.app/"
                 >
-                  <img src="src/img/todoList2.png" alt="" />
+                  <img src={todolist2} alt="" />
                 </a>
               </li>
             </>
