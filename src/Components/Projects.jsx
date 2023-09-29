@@ -16,7 +16,7 @@ const Projects = () => {
     <div className="projects" id="portfolio">
       <div className="sobre_titulo">
         <h1>Meus Projetos</h1>
-        <p>Lorem ipsum dolor sit amet.</p>
+        <p>Todos meus projetos.</p>
         <div aria-label="Seção apenas de ilustrações de botões">
           <span></span>
           <span></span>
