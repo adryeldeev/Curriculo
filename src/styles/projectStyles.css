@@ -67,3 +67,23 @@
     }
 
 }
+
+@media screen and (min-width:375px) {
+  
+    .projects_models{
+    width: 100%;
+       
+    }
+    .projects_models ul{
+    
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+      align-items: center;
+       
+    }
+
+    .projects_armazenamentos ul{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+}

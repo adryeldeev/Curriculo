@@ -311,3 +311,21 @@
 
 
 }
+
+
+@media screen and (min-width:375px) {
+   .funfacts {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+
+    }
+   .funfacts ul li {
+        width: 50%;
+        display: flex;
+        height: max-content;
+       flex-direction: column;
+       margin-left: 20%;
+        
+    }
+   
+}

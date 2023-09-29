@@ -86,3 +86,14 @@ color:#dc3545;
     border-bottom: 2px solid red;
     border-left: 2px solid red;
 }
+
+
+@media screen and (min-width:375px){
+    
+   
+    .my_services .mkt{
+        width: max-content;
+        height: max-content;
+        padding: 10px 5px 0;
+    }
+}

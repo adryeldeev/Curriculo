@@ -20,7 +20,7 @@ const Cursos = () => {
             <h1>Desenvolvimento Web</h1>
             <p>Criador de Sites.</p>
           </li>
-          <li>
+          <li className="mkt">
             <i className="fas fa-bullseye"></i>
             <h1>Marketing Digital</h1>
             <p>
