@@ -68,22 +68,24 @@
 
 }
 
-@media screen and (min-width:375px) {
+@media screen and (max-width:375px) {
   
-    .projects_models{
-    width: 100%;
-       
-    }
+   
     .projects_models ul{
-    
+        width: 90%;
+        grid-column: 1/-1;
         display: grid;
         grid-template-columns: 1fr 1fr;
-      align-items: center;
+      
        
     }
 
     .projects_armazenamentos ul{
         display: grid;
         grid-template-columns: 1fr 1fr;
+    }
+    .projects_armazenamentos ul a img{
+        width: 90%;
+        object-fit: cover;
     }
 }
