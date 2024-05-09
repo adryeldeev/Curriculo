@@ -145,6 +145,23 @@ const Educacao = () => {
             </ul>
           </div>
           <div className="skill_content">
+            <h3>Styled-Components</h3>
+            <ul>
+              <li>
+                <i className="fa-solid fa-star"></i>
+              </li>
+              <li>
+                <i className="fa-solid fa-star"></i>
+              </li>
+              <li>
+                <i className="fa-solid fa-star"></i>
+              </li>
+              <li>
+                <i className="fa-solid fa-star"></i>
+              </li>
+            </ul>
+          </div>
+          <div className="skill_content">
             <h3>BOOTSTRAP</h3>
             <ul>
               <li>
@@ -184,6 +201,9 @@ const Educacao = () => {
                 <i class="fa-solid fa-star-half-stroke"></i>
               </li>
             </ul>
+            <p className="text_skill">
+              Api Rest Full, DOM, Programação Orientado a Objeto{" "}
+            </p>
           </div>
           <div className="skill_content">
             <h3>React JS</h3>
@@ -202,6 +222,46 @@ const Educacao = () => {
               </li>
               <li>
                 <i class="fa-solid fa-star-half-stroke"></i>
+              </li>
+            </ul>
+            <p className="text_skill">
+              Axios, Props-Types, Context-Api,React-Hooks, React-Toastify.
+            </p>
+          </div>
+          <div className="skill_content">
+            <h3>NodeJs</h3>
+            <ul>
+              <li>
+                <i class="fa-solid fa-star"></i>
+              </li>
+              <li>
+                <i class="fa-solid fa-star"></i>
+              </li>
+              <li>
+                <i class="fa-solid fa-star"></i>
+              </li>
+              <li>
+                <i class="fa-solid fa-star"></i>
+              </li>
+              <li>
+                <i class="fa-solid fa-star-half-stroke"></i>
+              </li>
+            </ul>
+            <p className="text_skill">
+              Token JWT, Express,Multer, Bcrypt,Prisma,Nodemon{" "}
+            </p>
+          </div>
+          <div className="skill_content">
+            <h3>Docker</h3>
+            <ul>
+              <li>
+                <i class="fa-solid fa-star"></i>
+              </li>
+              <li>
+                <i class="fa-solid fa-star"></i>
+              </li>
+              <li>
+                <i class="fa-solid fa-star"></i>
               </li>
             </ul>
           </div>

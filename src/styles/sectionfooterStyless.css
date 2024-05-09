@@ -172,27 +172,34 @@
 }
 
 .skill_content{
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     grid-column: 1/2;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap:40px;
+    gap:10px;
     margin-top: 10px;
-    justify-self: start;
+   
+    
 }
 
 .skill_content h3{
-    font-size: 1.5rem;
+    font-size: 1.1rem;
     color: #fff;
 
 }
 
 
 .skill_content ul{
-    display: flex;
-    color:#fff;
+   display: flex;
+   color:#fff;
+   
 }
-
+.text_skill{
+    color:#fff;
+    align-items: flex-start;
+    font-size:15px;
+    
+}
 
 .funfacts{
     grid-column: 3/-1;
