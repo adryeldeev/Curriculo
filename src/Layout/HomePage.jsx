@@ -35,13 +35,13 @@ const HomePage = () => {
 
               <p>
                 Me chamo Adryel Martins. Iniciei na programação em 2022,
-                cursando Análise e Desenvolvimento de sistemas na faculdade.{" "}
+                cursando Análise e Desenvolvimento de Sistemas. Atualmente estou
+                no quinto e último semestre da faculdade.
                 <br />
-                Possuo experiências com programações front-end e backend,
-                buscando novos conhecimentos e tecnologias para estar sempre
-                atualizado no mercado e o que buscam. Me capacitando e
-                aprendendo novas tecnologias em buscando de entregar e fazer o
-                melhor.
+                Possuo experiências com programações front-end e backend e estou
+                sempre buscando novos conhecimentos e tecnologias para me manter
+                atualizado, com o objetivo de entregar o melhor trabalho
+                possível.
               </p>
             </div>
             <div className="sobre_info">
