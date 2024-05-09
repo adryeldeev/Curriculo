@@ -202,7 +202,7 @@ const Educacao = () => {
               </li>
             </ul>
             <p className="text_skill">
-              Api Rest Full, DOM, Programação Orientado a Objeto{" "}
+              Api Rest Full, DOM, Programação Orientado a Objeto, Algoritmos.
             </p>
           </div>
           <div className="skill_content">
