@@ -293,7 +293,7 @@ const Educacao = () => {
           <ul>
             <li>
               <i></i>
-              <span>5</span>
+              <span>4</span>
               <p>Projetos Realizados</p>
             </li>
           </ul>
