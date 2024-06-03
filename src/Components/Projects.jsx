@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import "../styles/projectStyles.css";
 import travel from "../img/travel.png";
 import todolist2 from "../img/todolist2.png";
+import imoveis from "../img/imoveispng.png";
 import cadastroDeCliente from "../img/cadastroDeCliente.png";
 import airbnb from "../img/airbnb.png";
 const Projects = () => {
@@ -37,20 +38,18 @@ const Projects = () => {
           >
             Landing page
           </li>
-          <li
-            className={
-              selectedCategory === "Cadastro de Cliente" ? "ativo" : ""
-            }
-            onClick={() => handleCategoryClick("Cadastro de Cliente")}
-          >
-            Cadastro de Cliente
-          </li>
 
           <li
             className={selectedCategory === "To do List" ? "ativo" : ""}
             onClick={() => handleCategoryClick("To do List")}
           >
             To do List
+          </li>
+          <li
+            className={selectedCategory == "Sistema" ? "ativo" : ""}
+            onClick={() => handleCategoryClick("Sistema")}
+          >
+            Sistemas
           </li>
         </ul>
       </div>
@@ -65,14 +64,6 @@ const Projects = () => {
                   href="https://adryeldeev.github.io/landingpageairbnb/"
                 >
                   <img src={airbnb} alt="" />
-                </a>
-              </li>
-              <li className="ativo">
-                <a
-                  target="_blank"
-                  href="https://cadastro-de-cliente.netlify.app/"
-                >
-                  <img src={cadastroDeCliente} alt="" />
                 </a>
               </li>
 
@@ -90,6 +81,14 @@ const Projects = () => {
                   href="https://adryeldeev.github.io/projecthotel/"
                 >
                   <img src={travel} alt="" />
+                </a>
+              </li>
+              <li className="ativo">
+                <a
+                  target="_blank"
+                  href="https://adryeldeev.github.io/SitemaDeAluguelDeImoveis/"
+                >
+                  <img src={imoveis} alt="" />
                 </a>
               </li>
             </>
@@ -114,19 +113,6 @@ const Projects = () => {
               </li>
             </>
           )}
-          {selectedCategory === "Cadastro de Cliente" && (
-            <>
-              {" "}
-              <li className="ativo">
-                <a
-                  target="_blank"
-                  href="https://cadastro-de-cliente.netlify.app/"
-                >
-                  <img src={cadastroDeCliente} alt="" />
-                </a>
-              </li>
-            </>
-          )}
 
           {selectedCategory === "To do List" && (
             <>
@@ -137,6 +123,19 @@ const Projects = () => {
                   href="https://todolist-netlify-reactjs.netlify.app/"
                 >
                   <img src={todolist2} alt="" />
+                </a>
+              </li>
+            </>
+          )}
+          {selectedCategory === "Sistema" && (
+            <>
+              {" "}
+              <li className="ativo">
+                <a
+                  target="_blank"
+                  href="https://adryeldeev.github.io/SitemaDeAluguelDeImoveis/"
+                >
+                  <img src={imoveis} alt="" />
                 </a>
               </li>
             </>
